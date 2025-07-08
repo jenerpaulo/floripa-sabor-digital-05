@@ -1,7 +1,9 @@
+
 import { Link } from "react-router-dom";
 import { ArrowLeft, Wine, Star, Award, Crown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import OptimizedImage from "@/components/OptimizedImage";
 
 const Menu = () => {
   const tapas = [
@@ -228,10 +230,11 @@ const Menu = () => {
             {tapas.map((item, index) => (
               <Card key={index} className="group bg-white shadow-xl border-0 overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
                 <div className="relative overflow-hidden">
-                  <img 
-                    src={item.image} 
+                  <OptimizedImage
+                    src={item.image}
                     alt={item.name}
                     className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
+                    onError={() => console.log(`Failed to load tapas image: ${item.name}`)}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                   {item.isNew && (
@@ -276,10 +279,11 @@ const Menu = () => {
               <Card key={index} className="group bg-white shadow-xl border-0 overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
                 <div className="lg:flex">
                   <div className="lg:w-1/2 relative overflow-hidden">
-                    <img 
-                      src={item.image} 
+                    <OptimizedImage
+                      src={item.image}
                       alt={item.name}
                       className="w-full h-64 lg:h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      onError={() => console.log(`Failed to load appetizer image: ${item.name}`)}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                     {item.isNew && (
