@@ -112,7 +112,7 @@ const Menu = () => {
       name: "Bread Add-on",
       description: "House bread served as an extra portion for other appetizers, does not come with butter.",
       price: "R$ 15,00",
-      image: "/bread_add_on.webp",
+      image: "/images/bread_add_on.webp",
       isNew: true
     }
   ];
