@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { ArrowLeft, Wine, Star, Award, Crown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -77,6 +76,41 @@ const Menu = () => {
       description: "Steak tartare com gema infusionada na cachaça, mousse de mostarda dijon acompanhado de pão caseiro de fermentação longa",
       price: "R$ 69,00",
       image: "/lovable-uploads/steak_tartare.png",
+      isNew: true
+    },
+    {
+      name: "Mix of Greens, Candied Fig, Fresh Goat Cheese, Shavings of Jamón Serrano, Savory Granola and Orange Vinaigrette",
+      description: "Mix of greens, candied fig, house-made fresh goat cheese, serrano ham shavings, savory granola, and orange vinaigrette",
+      price: "R$ 69,00",
+      image: "/lovable-uploads/8dcbf360-4eec-4449-80cc-560137d74177.webp",
+      isNew: true
+    },
+    {
+      name: "Organic Mushroom Skillet Sautéed in Olive Oil with Fresh Herbs and Cherry Tomatoes Confit with Truffle Oil",
+      description: "Organic sautéed mushroom pot in extra virgin olive oil with fresh herbs and confit cherry tomatoes, finished with truffle oil. Served with house breads. Contains gluten, check availability of gluten-free bread.",
+      price: "R$ 69,00",
+      image: "/lovable-uploads/f8f1d1b6-2486-4c51-ac28-6d932d10ed5b.webp",
+      isNew: true
+    },
+    {
+      name: "Seafood Stew with Sicilian Lemon Sauce and Slow-Fermented Toasts",
+      description: "Pink shrimp from deep sea, squid, shellfish, octopus and grilled fish with Sicilian lemon sauce accompanied by toasted long-fermented breads. Note: contains gluten and lactose, check availability of gluten-free bread, for lactose-free we remove ghee butter.",
+      price: "R$ 95,00",
+      image: "/lovable-uploads/4bbbfb5b-0f63-41c8-8ec2-3c7eb5caad0e.webp",
+      isNew: true
+    },
+    {
+      name: "Selection of Living Cheeses and Artisanal Charcuterie with Jellies, Butter, and House Breads",
+      description: "Selection of unpasteurized (raw) cheeses, artisanal charcuterie. Served with jellies, smoked paprika ghee butter and breads, all made in-house. Note: contains gluten and lactose, check availability of gluten-free bread.",
+      price: "R$ 117,00",
+      image: "/lovable-uploads/d99cefce-b648-4a21-8740-b41a68a17e31.webp",
+      isNew: true
+    },
+    {
+      name: "Bread Add-on",
+      description: "House bread served as an extra portion for other appetizers, does not come with butter.",
+      price: "R$ 15,00",
+      image: "/lovable-uploads/4c50cc23-015d-4e57-af77-b6ad3af2df67.webp",
       isNew: true
     }
   ];
