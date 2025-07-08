@@ -11,42 +11,42 @@ const Menu = () => {
       name: "Bombom de Coalho e Linguiça de Blumenau",
       description: "Massa folhada recheada com queijo coalho e linguiça Blumenau, assada no forno. Finalizada com gremolata, picles de mostarda e limão confitado. (5 unidades). Contém glúten e lactose.",
       price: "R$ 49,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/cheese_curd_bombom.webp",
+      image: "public/images/cheese_curd_bombom.webp",
       isNew: false
     },
     {
       name: "Pancetta de Porco, Geleia de Bacon, Jamón Serrano, Limão Confitado e Hortelã Fresca",
       description: "Pancetta de porco, geleia de bacon, jamón serrano, limão confitado e hortelã fresca.",
       price: "R$ 49,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/pork_belly.webp",
+      image: "public/images/pork_belly.webp",
       isNew: true
     },
     {
       name: "Gougères Recheados com Creme de Camarão e Queijo Fresco, Chutney de Abacaxi e Furikake",
       description: "Gougères recheados com creme de camarão e queijo fresco, chutney de abacaxi e furikake caseiro",
       price: "R$ 69,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/gougeres.webp",
+      image: "public/images/gougeres.webp",
       isNew: true
     },
     {
       name: "Pão Naam com Queijo de Cabra Fresco, Shitake Refogado no Shoyu, Avelãs Tostadas, Agrião e Mel",
       description: "Pão Naam com queijo de cabra fresco caseiro, cogumelos shiitake refogados no shoyu, avelãs tostadas, agrião e mel",
       price: "R$ 59,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/pao_naam.webp",
+      image: "public/images/pao_naam.webp",
       isNew: true
     },
     {
       name: "Torrada de Salmão Defumado, Creme de Abacate, Creme Azedo com Endro e Limão Confitado",
       description: "Torrada de salmão defumado da casa, creme de abacate, creme azedo com endro e limão confitado (2 unidades)",
       price: "R$ 65,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/smoked_salmon_toast.webp",
+      image: "public/images/smoked_salmon_toast.webp",
       isNew: true
     },
     {
       name: "JAMÓN IBÉRICO PATA NEGRA (ALIMENTADO COM BOLOTA)",
       description: "Considerado o melhor Jamón do mundo o Jamón Ibérico de Bellota tem 36 meses de cura, alimentado com bellotas (um tipo de castanha) e cortado a cuchillo (faca especial para jamón). Acompanha focaccia, tomates confitados, azeite de ervas e tomate resfregado. Porção de Jamón 50 gramas.",
       price: "R$ 149,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/iberian_ham.webp",
+      image: "public/images/iberian_ham.webp",
       isNew: false
     }
   ];
@@ -56,21 +56,21 @@ const Menu = () => {
       name: "Ricota da Casa Recheada com Queijo Gorgonzola, Acompanhada de Compota de Frutas Vermelhas, Nozes e Pães",
       description: "Ricota da casa recheada com queijo gorgonzola, acompanhada de compota de frutas vermelhas, nozes e pães",
       price: "R$ 59,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/house_ricotta.webp",
+      image: "public/images/house_ricotta.webp",
       isNew: true
     },
     {
       name: "Crudo de Peixe Fresco, Ponzu de Laranja, Aioli de Wasabi, Algas e Pó de Hibisco",
       description: "Crudo de peixe fresco, ponzu de laranja, aioli de wasabi, algas e pó de hibisco. Servido com torrada artesanal.",
       price: "R$ 59,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/fresh_fish_crudo.webp",
+      image: "public/images/fresh_fish_crudo.webp",
       isNew: true
     },
     {
       name: "Carpaccio de Salmão com Creme Azedo Trufado, Regado com Molho Tailandês (Gengibre, Laranja e Pimenta) e Gergelim",
       description: "Carpaccio de salmão com creme azedo trufado, regado com molho tailandês (gengibre, laranja e pimenta) e gergelim. Servido com torradas de pão de fermentação longa. Obs: contém glúten e lactose, consulte disponibilidade de pão sem glúten.",
       price: "R$ 69,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/salmon_carpaccio.webp",
+      image: "public/images/salmon_carpaccio.webp",
       isNew: false
     },
     {
@@ -84,35 +84,35 @@ const Menu = () => {
       name: "Mix of Greens, Candied Fig, Fresh Goat Cheese, Shavings of Jamón Serrano, Savory Granola and Orange Vinaigrette",
       description: "Mix of greens, candied fig, house-made fresh goat cheese, serrano ham shavings, savory granola, and orange vinaigrette",
       price: "R$ 69,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/mix_of_greens.webp",
+      image: "public/images/mix_of_greens.webp",
       isNew: true
     },
     {
       name: "Organic Mushroom Skillet Sautéed in Olive Oil with Fresh Herbs and Cherry Tomatoes Confit with Truffle Oil",
       description: "Organic sautéed mushroom pot in extra virgin olive oil with fresh herbs and confit cherry tomatoes, finished with truffle oil. Served with house breads. Contains gluten, check availability of gluten-free bread.",
       price: "R$ 69,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/organic_mushroom_skillet.webp",
+      image: "public/images/organic_mushroom_skillet.webp",
       isNew: true
     },
     {
       name: "Seafood Stew with Sicilian Lemon Sauce and Slow-Fermented Toasts",
       description: "Pink shrimp from deep sea, squid, shellfish, octopus and grilled fish with Sicilian lemon sauce accompanied by toasted long-fermented breads. Note: contains gluten and lactose, check availability of gluten-free bread, for lactose-free we remove ghee butter.",
       price: "R$ 95,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/seafood_stew.png",
+      image: "public/images/seafood_stew.png",
       isNew: true
     },
     {
       name: "Selection of Living Cheeses and Artisanal Charcuterie with Jellies, Butter, and House Breads",
       description: "Selection of unpasteurized (raw) cheeses, artisanal charcuterie. Served with jellies, smoked paprika ghee butter and breads, all made in-house. Note: contains gluten and lactose, check availability of gluten-free bread.",
       price: "R$ 117,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/selection_of_cheeses.webp",
+      image: "public/images/selection_of_cheeses.webp",
       isNew: true
     },
     {
       name: "Bread Add-on",
       description: "House bread served as an extra portion for other appetizers, does not come with butter.",
       price: "R$ 15,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/bread_add_on.webp",
+      image: "public/images/bread_add_on.webp",
       isNew: true
     }
   ];
