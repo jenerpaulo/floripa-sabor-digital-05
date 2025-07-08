@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
 interface OptimizedImageProps {
@@ -20,14 +20,37 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const [currentSrc, setCurrentSrc] = useState(src);
   const [isLoading, setIsLoading] = useState(true);
   const [hasError, setHasError] = useState(false);
+  const [attemptCount, setAttemptCount] = useState(0);
+
+  // Reset state when src prop changes
+  useEffect(() => {
+    console.log(`OptimizedImage: Loading new image - ${src}`);
+    setCurrentSrc(src);
+    setIsLoading(true);
+    setHasError(false);
+    setAttemptCount(0);
+  }, [src]);
 
   const handleError = () => {
-    console.log(`Failed to load image: ${currentSrc}`);
+    console.log(`OptimizedImage Error: Failed to load ${currentSrc} (attempt ${attemptCount + 1})`);
     setHasError(true);
     setIsLoading(false);
     
-    if (currentSrc !== fallbackSrc) {
+    const newAttemptCount = attemptCount + 1;
+    setAttemptCount(newAttemptCount);
+    
+    // Try fallback strategies
+    if (newAttemptCount === 1 && currentSrc !== fallbackSrc) {
+      console.log(`OptimizedImage: Trying fallback image - ${fallbackSrc}`);
       setCurrentSrc(fallbackSrc);
+      setHasError(false);
+      setIsLoading(true);
+    } else if (newAttemptCount === 2 && currentSrc.includes('github')) {
+      // If GitHub raw URL fails, try relative path
+      const fileName = src.split('/').pop();
+      const relativePath = `/images/${fileName}`;
+      console.log(`OptimizedImage: Trying relative path - ${relativePath}`);
+      setCurrentSrc(relativePath);
       setHasError(false);
       setIsLoading(true);
     }
@@ -38,6 +61,7 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
   };
 
   const handleLoad = () => {
+    console.log(`OptimizedImage: Successfully loaded ${currentSrc}`);
     setIsLoading(false);
     setHasError(false);
   };
@@ -64,13 +88,16 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
         onError={handleError}
         loading="lazy"
       />
-      {hasError && currentSrc === fallbackSrc && (
+      {hasError && attemptCount >= 3 && (
         <div className={cn(
           "absolute inset-0 bg-gray-100 flex items-center justify-center",
           className
         )}>
           <div className="text-gray-500 text-sm text-center p-4">
-            Imagem não disponível
+            <div>Imagem não disponível</div>
+            <div className="text-xs mt-1 opacity-70">
+              {src.split('/').pop()}
+            </div>
           </div>
         </div>
       )}
