@@ -112,7 +112,7 @@ const Menu = () => {
       name: "Bread Add-on",
       description: "House bread served as an extra portion for other appetizers, does not come with butter.",
       price: "R$ 15,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/bread_add_on.webp",
+      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/bread_add_on.webp?token=GHSAT0AAAAAADHAXLZVST3GL6U3F2LRWFDE2DNSUNA",
       isNew: true
     }
   ];
