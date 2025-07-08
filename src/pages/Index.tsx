@@ -141,7 +141,7 @@ const Index = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img 
-                  src="/lovable-uploads/cheese_curd_bombom.png" 
+                  src="https://github.com/jenerpaulo/floripa-sabor-digital-05/blob/main/public/images/cheese_curd_bombom.webp" 
                   alt="Bombom de Coalho e Linguiça"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
