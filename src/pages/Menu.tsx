@@ -330,9 +330,21 @@ const Menu = () => {
                 <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white px-10 py-5 text-lg font-light tracking-wide shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
                   (48) 3333-4444
                 </Button>
-                <Button size="lg" variant="outline" className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-10 py-5 text-lg font-light tracking-wide transition-all duration-300 hover:scale-105">
-                  WhatsApp
-                </Button>
+                <Button 
+  asChild 
+  size="lg" 
+  variant="outline" 
+  className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-10 py-5 text-lg font-light tracking-wide transition-all duration-300 hover:scale-105"
+>
+  <a 
+    href="https://linkly.link/2BReA" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    WhatsApp
+  </a>
+</Button>
+
               </div>
             </div>
           </div>
