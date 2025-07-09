@@ -93,18 +93,18 @@ const Index = () => {
               
               <div className="flex items-center space-x-6 pt-6">
                 <div className="text-center">
-                  <div className="text-3xl font-serif text-amber-700 mb-1">2018</div>
-                  <div className="text-sm text-stone-500 uppercase tracking-wider">Fundado</div>
+                  <div className="text-3xl font-serif text-amber-700 mb-1">2004</div>
+                  <div className="text-sm text-stone-500 uppercase tracking-wider">Fundação</div>
                 </div>
                 <div className="w-px h-12 bg-stone-300"></div>
                 <div className="text-center">
-                  <div className="text-3xl font-serif text-amber-700 mb-1">5★</div>
+                  <div className="text-3xl font-serif text-amber-700 mb-1">4.8★</div>
                   <div className="text-sm text-stone-500 uppercase tracking-wider">Avaliação</div>
                 </div>
                 <div className="w-px h-12 bg-stone-300"></div>
                 <div className="text-center">
-                  <div className="text-3xl font-serif text-amber-700 mb-1">500+</div>
-                  <div className="text-sm text-stone-500 uppercase tracking-wider">Clientes</div>
+                  <div className="text-3xl font-serif text-amber-700 mb-1">1500+</div>
+                  <div className="text-sm text-stone-500 uppercase tracking-wider">Avaliações</div>
                 </div>
               </div>
             </div>
@@ -276,9 +276,13 @@ const Index = () => {
               </div>
               <h3 className="text-2xl font-serif font-light mb-4">Reservas</h3>
               <p className="text-amber-200 text-lg leading-relaxed font-light">
-                (48) 3333-4444<br />
-                WhatsApp: (48) 99999-8888<br />
-                contato@restauranteilha.com.br
+                (48) 3037-2828<br />
+                <a 
+                  href="https://duobro.com.br" 
+                  target="_blank" 
+                  rel="noopener noreferrer">WhatsApp</a>
+                WhatsApp:  (48) 3037-2828 <br />
+                contato@lacavebar.com.br
               </p>
             </div>
           </div>
