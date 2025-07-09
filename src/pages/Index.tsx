@@ -164,7 +164,7 @@ const Index = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img 
-                  src="/lovable-uploads/iberian_ham.png" 
+                  src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/iberian_ham.webp" 
                   alt="Jamón Ibérico de Bellota"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -187,7 +187,7 @@ const Index = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img 
-                  src="/lovable-uploads/salmon_carpaccio.png" 
+                  src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/salmon_carpaccio.webp" 
                   alt="Carpaccio de Salmão"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
