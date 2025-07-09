@@ -280,8 +280,8 @@ const Index = () => {
                 <a 
                   href="https://duobro.com.br" 
                   target="_blank" 
-                  rel="noopener noreferrer">WhatsApp</a>
-                WhatsApp:  (48) 3037-2828 <br />
+                  rel="noopener noreferrer">Clique para WhatsApp</a>
+                 <br />
                 contato@lacavebar.com.br
               </p>
             </div>
