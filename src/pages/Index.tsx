@@ -17,52 +17,56 @@ const Index = () => {
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>
         
-        <div className="relative z-10 text-center px-8 max-w-6xl mx-auto">
-          <div className="mb-8 flex flex-col items-center space-y-4">
+        <div className="relative z-10 text-center px-4 sm:px-8 max-w-6xl mx-auto">
+          <div className="mb-6 sm:mb-8 flex flex-col items-center space-y-3 sm:space-y-4">
+            <img 
+              src="/lovable-uploads/ad7c3648-8812-4fb8-aa7e-ecac0e8c5e29.png" 
+              alt="La Cave Logo"
+              className="w-32 h-12 sm:w-48 sm:h-16 md:w-64 md:h-20 object-contain mb-2"
+            />
             <img 
               src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/la%20cave%20restaurante%20em%20florianopolis.avif" 
               alt="Hospital do Dente Logo"
-              className="w-393 h-143 object-contain"
+              className="w-60 h-20 sm:w-80 sm:h-28 md:w-393 md:h-143 object-contain"
             />
-            <div className="flex items-center space-x-2 text-amber-600">
-              <Star className="h-6 w-6 fill-current" />
-              <Star className="h-6 w-6 fill-current" />
-              <Star className="h-6 w-6 fill-current" />
-              <Star className="h-6 w-6 fill-current" />
-              <Star className="h-6 w-6 fill-current" />
+            <div className="flex items-center space-x-1 sm:space-x-2 text-amber-600">
+              <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
+              <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
+              <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
+              <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
+              <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
             </div>
           </div>
           
-          <h1 className="text-4xl md:text-6xl font-serif font-light text-amber-400 mb-8 tracking-wide animate-fade-in">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-serif font-light text-amber-400 mb-4 sm:mb-6 md:mb-8 tracking-wide animate-fade-in">
             O Melhor Restaurante em
-            <span className="block text-7xl md:text-9xl font-normal italic text-amber-400 mt-2">Florianópolis</span>
+            <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-9xl font-normal italic text-amber-400 mt-1 sm:mt-2">Florianópolis</span>
           </h1>
           
-          <div className="w-24 h-px bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-8"></div>
+          <div className="w-16 sm:w-20 md:w-24 h-px bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-4 sm:mb-6 md:mb-8"></div>
           
-          <p className="text-2xl md:text-3xl text-amber-400 mb-6 font-light tracking-wide animate-fade-in">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-amber-400 mb-3 sm:mb-4 md:mb-6 font-light tracking-wide animate-fade-in">
             Uma experiência gastronômica única
           </p>
-          <p className="text-xl text-amber-400/80 mb-12 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in">
+          <p className="text-base sm:text-lg md:text-xl text-amber-400/80 mb-8 sm:mb-10 md:mb-12 max-w-xs sm:max-w-2xl md:max-w-3xl mx-auto leading-relaxed font-light animate-fade-in px-2">
             Descubra sabores autênticos e criações exclusivas do chef em um ambiente sofisticado no seu melhor restaurante em Florianópolis.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center animate-fade-in px-4">
             <Link to="/menu">
-              <Button size="lg" className="bg-amber-700 hover:bg-amber-800 text-white px-10 py-5 text-lg font-light tracking-wide border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
+              <Button size="lg" className="bg-amber-700 hover:bg-amber-800 text-white px-8 sm:px-10 py-4 sm:py-5 text-base sm:text-lg font-light tracking-wide border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 w-full sm:w-auto">
                 Explorar Cardápio
-                <ArrowRight className="ml-3 h-5 w-5" />
+                <ArrowRight className="ml-2 sm:ml-3 h-4 w-4 sm:h-5 sm:w-5" />
               </Button>
             </Link>
             <Button 
-  size="lg" 
-  variant="outline" 
-  className="border-2 border-amber-700 text-amber-800 hover:bg-amber-700 hover:text-white px-10 py-5 text-lg font-light tracking-wide shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-  onClick={() => window.open("https://linkly.link/2BReA", "_blank", "noopener,noreferrer")}
->
-  Fazer Reserva
-</Button>
-
+              size="lg" 
+              variant="outline" 
+              className="border-2 border-amber-700 text-amber-800 hover:bg-amber-700 hover:text-white px-8 sm:px-10 py-4 sm:py-5 text-base sm:text-lg font-light tracking-wide shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 w-full sm:w-auto"
+              onClick={() => window.open("https://linkly.link/2BReA", "_blank", "noopener,noreferrer")}
+            >
+              Fazer Reserva
+            </Button>
           </div>
         </div>
       </section>
@@ -89,13 +93,12 @@ const Index = () => {
               </p>
               <p className="text-stone-600 text-xl leading-relaxed font-light">
                 Aos poucos, construímos uma parceria baseada em amor e cumplicidade, que nos levou a um sonho: abrir nosso próprio negócio. <a 
-  href="https://www.instagram.com/lacavegastrobar/" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  class="text-blue-500 hover:text-blue-700">
-  Leia mais...
-</a>
-
+                  href="https://www.instagram.com/lacavegastrobar/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:text-blue-700">
+                  Leia mais...
+                </a>
               </p>
               
               <div className="flex items-center space-x-6 pt-6">
@@ -296,36 +299,35 @@ const Index = () => {
           
           <div className="flex justify-center gap-8">
             <Button
-  asChild
-  variant="outline"
-  size="lg"
-  className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105"
->
-  <a
-    href="https://www.instagram.com/lacavegastrobar/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Instagram className="h-6 w-6 mr-3" />
-    Instagram
-  </a>
-</Button>
+              asChild
+              variant="outline"
+              size="lg"
+              className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105"
+            >
+              <a
+                href="https://www.instagram.com/lacavegastrobar/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram className="h-6 w-6 mr-3" />
+                Instagram
+              </a>
+            </Button>
             <Button
-  asChild
-  variant="outline"
-  size="lg"
-  className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105"
->
-  <a
-    href="https://www.ifood.com.br/delivery/florianopolis-sc/la-cave-centro/d1c1a486-856d-4cf4-a786-f35bc05c9d85?utm_medium=share"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Facebook className="h-6 w-6 mr-3" />
-    Delivery
-  </a>
-</Button>
-
+              asChild
+              variant="outline"
+              size="lg"
+              className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105"
+            >
+              <a
+                href="https://www.ifood.com.br/delivery/florianopolis-sc/la-cave-centro/d1c1a486-856d-4cf4-a786-f35bc05c9d85?utm_medium=share"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Facebook className="h-6 w-6 mr-3" />
+                Delivery
+              </a>
+            </Button>
           </div>
         </div>
       </section>
