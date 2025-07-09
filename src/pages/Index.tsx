@@ -208,7 +208,7 @@ const Index = () => {
                   Carpaccio de Salmão
                 </h3>
                 <p className="text-stone-600 leading-relaxed mb-6 font-light">
-                  Com creme azedo trufado e molho tailandês
+                  Carpaccio de salmão com sour cream, regado com molho tailandês (gengibre, laranja e pimenta) e gergelim e molho ponzu de maracujá. Acompanha torradas de pães de fermentação prolongada
                 </p>
                 <div className="flex items-center justify-between">
                   <p className="text-2xl font-serif text-amber-600 font-medium">R$ 69,00</p>
