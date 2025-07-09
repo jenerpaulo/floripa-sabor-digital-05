@@ -147,7 +147,7 @@ const Menu = () => {
             </div>
             <h2 className="text-5xl font-serif font-light text-stone-800 mb-6">Menu Degustação</h2>
             <p className="text-2xl text-stone-600 font-light max-w-4xl mx-auto">
-              Sugestão do chef para um jantar de quatro etapas
+              * Sugestão para um jantar de quatro etapas *
             </p>
           </div>
 
