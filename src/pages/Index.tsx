@@ -278,7 +278,7 @@ const Index = () => {
               <p className="text-amber-200 text-lg leading-relaxed font-light">
                 (48) 3037-2828<br />
                 <a 
-                  href="https://duobro.com.br" 
+                  href="https://linkly.link/2BReA" 
                   target="_blank" 
                   rel="noopener noreferrer">Clique para WhatsApp</a>
                  <br />
