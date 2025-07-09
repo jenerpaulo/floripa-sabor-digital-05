@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, MapPin, Clock, Phone, Instagram, Facebook, Star, Award, Utensils } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -310,6 +311,8 @@ const Index = () => {
           <p className="font-light">&copy; 2024 Restaurante Ilha. Todos os direitos reservados.</p>
         </div>
       </footer>
+
+      <WhatsAppButton />
     </div>
   );
 };
