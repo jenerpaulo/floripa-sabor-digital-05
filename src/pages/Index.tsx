@@ -162,7 +162,7 @@ const Index = () => {
                   Bombom de Coalho e Linguiça
                 </h3>
                 <p className="text-stone-600 leading-relaxed mb-6 font-light">
-                  Massa folhada recheada com queijo coalho e linguiça de Blumenau
+                  Massa folhada recheada com queijo coalho e linguiça Blumenau, levados ao forno. Finalizados com gremolata, picles de mostarda e limão confit. (5un). Contém glúten e lactose.
                 </p>
                 <div className="flex items-center justify-between">
                   <p className="text-2xl font-serif text-amber-600 font-medium">R$ 49,00</p>
