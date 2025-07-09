@@ -55,13 +55,14 @@ const Index = () => {
               </Button>
             </Link>
             <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-2 border-amber-700 text-amber-800 hover:bg-amber-700 hover:text-white px-10 py-5 text-lg font-light tracking-wide shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-              onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
-            >
-              Fazer Reserva
-            </Button>
+  size="lg" 
+  variant="outline" 
+  className="border-2 border-amber-700 text-amber-800 hover:bg-amber-700 hover:text-white px-10 py-5 text-lg font-light tracking-wide shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+  onClick={() => window.open("https://linkly.link/2BReA", "_blank", "noopener,noreferrer")}
+>
+  Fazer Reserva
+</Button>
+
           </div>
         </div>
       </section>
