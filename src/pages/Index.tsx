@@ -22,7 +22,7 @@ const Index = () => {
             <img 
               src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/la%20cave%20restaurante%20em%20florianopolis.avif" 
               alt="Restaurante em Canasvieiras Logo"
-              className="w-60 h-20 sm:w-80 sm:h-28 md:w-[393px] md:h-[143px] object-contain"
+              className="w-80 h-28 sm:w-96 sm:h-32 md:w-[393px] md:h-[143px] object-contain"
             />
             <div className="flex items-center space-x-1 sm:space-x-2 text-amber-600">
               <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
