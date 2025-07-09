@@ -18,15 +18,10 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/30"></div>
         
         <div className="relative z-10 text-center px-4 sm:px-8 max-w-6xl mx-auto">
-          <div className="mb-6 sm:mb-8 flex flex-col items-center space-y-3 sm:space-y-4">
-            <img 
-              src="/lovable-uploads/ad7c3648-8812-4fb8-aa7e-ecac0e8c5e29.png" 
-              alt="La Cave Logo"
-              className="w-32 h-12 sm:w-48 sm:h-16 md:w-64 md:h-20 object-contain mb-2"
-            />
+          <div className="mb-6 sm:mb-8 flex flex-col items-center space-y-3 sm:space-y-4">            
             <img 
               src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/la%20cave%20restaurante%20em%20florianopolis.avif" 
-              alt="Hospital do Dente Logo"
+              alt="Restaurante em Canasvieiras Logo"
               className="w-60 h-20 sm:w-80 sm:h-28 md:w-393 md:h-143 object-contain"
             />
             <div className="flex items-center space-x-1 sm:space-x-2 text-amber-600">
