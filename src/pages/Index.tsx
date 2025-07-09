@@ -174,18 +174,18 @@ const Index = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img 
-                  src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/iberian_ham.webp" 
-                  alt="Jamón Ibérico de Bellota"
+                  src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/jamon.webp" 
+                  alt="Barriga suína, geleia de bacon, jamón serrano, limão confit e hortelã fresca."
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-serif text-stone-800 mb-4 leading-tight">
-                  Jamón Ibérico de Bellota
+                  Barriga suína, geleia de bacon, jamón serrano, limão confit e hortelã fresca
                 </h3>
                 <p className="text-stone-600 leading-relaxed mb-6 font-light">
-                  O melhor jamón do mundo com 36 meses de cura
+                  Barriga suína, geleia de bacon, jamón serrano, limão confit e hortelã fresca.
                 </p>
                 <div className="flex items-center justify-between">
                   <p className="text-2xl font-serif text-amber-600 font-medium">R$ 149,00</p>
