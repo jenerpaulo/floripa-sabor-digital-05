@@ -20,10 +20,10 @@ const Index = () => {
         <div className="relative z-10 text-center px-4 sm:px-8 max-w-6xl mx-auto">
           <div className="mb-6 sm:mb-8 flex flex-col items-center space-y-3 sm:space-y-4">            
             <img 
-  src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/la%20cave%20restaurante%20em%20florianopolis.avif" 
-  alt="Restaurante em Canasvieiras Logo"
-  className="w-60 sm:w-80 md:w-[393px] h-auto object-contain"
-/>
+              src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/la%20cave%20restaurante%20em%20florianopolis.avif" 
+              alt="Restaurante em Canasvieiras Logo"
+              className="w-60 h-20 sm:w-80 sm:h-28 md:w-[393px] md:h-[143px] object-contain"
+            />
             <div className="flex items-center space-x-1 sm:space-x-2 text-amber-600">
               <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
               <Star className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 fill-current" />
