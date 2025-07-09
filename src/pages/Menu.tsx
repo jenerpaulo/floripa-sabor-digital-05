@@ -328,7 +328,7 @@ const Menu = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white px-10 py-5 text-lg font-light tracking-wide shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105">
-                  (48) 3333-4444
+                  (48) 3037-2828
                 </Button>
                 <Button 
   asChild 
