@@ -32,18 +32,18 @@ const Index = () => {
             </div>
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-serif font-light text-amber-900 mb-8 tracking-wide animate-fade-in">
-            Restaurante
-            <span className="block text-7xl md:text-9xl font-normal italic text-amber-800 mt-2">Ilha</span>
+          <h1 className="text-6xl md:text-8xl font-serif font-light text-amber-400 mb-8 tracking-wide animate-fade-in">
+            Restaurante em
+            <span className="block text-7xl md:text-9xl font-normal italic text-amber-400 mt-2">Florianópolis</span>
           </h1>
           
           <div className="w-24 h-px bg-gradient-to-r from-transparent via-amber-600 to-transparent mx-auto mb-8"></div>
           
-          <p className="text-2xl md:text-3xl text-amber-800 mb-6 font-light tracking-wide animate-fade-in">
+          <p className="text-2xl md:text-3xl text-amber-400 mb-6 font-light tracking-wide animate-fade-in">
             Uma experiência gastronômica única
           </p>
-          <p className="text-xl text-amber-700/80 mb-12 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in">
-            Descubra sabores autênticos e criações exclusivas do chef em um ambiente sofisticado na Ilha da Magia
+          <p className="text-xl text-amber-400/80 mb-12 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in">
+            Descubra sabores autênticos e criações exclusivas do chef em um ambiente sofisticado no seu melhor restaurante em Florianópolis.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center animate-fade-in">
