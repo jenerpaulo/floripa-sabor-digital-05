@@ -298,11 +298,22 @@ const Index = () => {
               <Instagram className="h-6 w-6 mr-3" />
               Instagram
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105">
-               <a href="https://www.ifood.com.br/delivery/florianopolis-sc/la-cave-centro/d1c1a486-856d-4cf4-a786-f35bc05c9d85?utm_medium=share" target="_blank" rel="noopener noreferrer">
-              <Facebook className="h-6 w-6 mr-3" />
-              Delivery
-            </Button>
+            <Button
+  asChild
+  variant="outline"
+  size="lg"
+  className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105"
+>
+  <a
+    href="https://www.ifood.com.br/delivery/florianopolis-sc/la-cave-centro/d1c1a486-856d-4cf4-a786-f35bc05c9d85?utm_medium=share"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Facebook className="h-6 w-6 mr-3" />
+    Delivery
+  </a>
+</Button>
+
           </div>
         </div>
       </section>
