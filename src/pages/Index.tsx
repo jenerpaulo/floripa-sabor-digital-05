@@ -248,8 +248,8 @@ const Index = () => {
               </div>
               <h3 className="text-2xl font-serif font-light mb-4">Localização</h3>
               <p className="text-amber-200 text-lg leading-relaxed font-light">
-                Rua das Rendeiras, 123<br />
-                Lagoa da Conceição<br />
+                R. Demétrio Ribeiro, 51 <br />
+                Centro<br />
                 Florianópolis - SC
               </p>
             </div>
@@ -262,9 +262,9 @@ const Index = () => {
               </div>
               <h3 className="text-2xl font-serif font-light mb-4">Funcionamento</h3>
               <p className="text-amber-200 text-lg leading-relaxed font-light">
-                Terça a Domingo<br />
-                18h às 23h<br />
-                Segunda fechado
+                Terça a Sábado<br />
+                11:30 às 24:00<br />
+                Domingo/Seg - fechado
               </p>
             </div>
             
