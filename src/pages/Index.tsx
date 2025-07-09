@@ -90,7 +90,8 @@ const Index = () => {
                 Aos poucos, construímos uma parceria baseada em amor e cumplicidade, que nos levou a um sonho: abrir nosso próprio negócio. <a 
   href="https://www.instagram.com/p/C-xkJnFv0ZJ/" 
   target="_blank" 
-  rel="noopener noreferrer">
+  rel="noopener noreferrer"
+  class="text-blue-500 hover:text-blue-700">
   Leia mais...
 </a>
 
