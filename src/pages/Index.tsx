@@ -11,7 +11,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
-            backgroundImage: "url('https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/la%20cave%20gastrobar%20em%20florianopolis.webp')"
+            backgroundImage: "url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3')"
           }}
         ></div>
         <div className="absolute inset-0 bg-black/30"></div>
@@ -107,7 +107,7 @@ const Index = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-amber-100 to-stone-100 rounded-2xl transform rotate-3"></div>
               <img 
-                src="https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3" 
+                src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/vinhos%20florianopolis.avif" 
                 alt="Interior do restaurante"
                 className="relative rounded-xl shadow-2xl w-full h-96 object-cover transform -rotate-1 hover:rotate-0 transition-transform duration-500"
               />
