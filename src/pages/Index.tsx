@@ -21,7 +21,7 @@ const Index = () => {
             <img 
               src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/la%20cave%20restaurante%20em%20florianopolis.avif" 
               alt="Hospital do Dente Logo"
-              className="w-20 h-20 object-contain"
+              className="w-393 h-143 object-contain"
             />
             <div className="flex items-center space-x-2 text-amber-600">
               <Star className="h-6 w-6 fill-current" />
