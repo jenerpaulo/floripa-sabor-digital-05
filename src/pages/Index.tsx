@@ -84,12 +84,16 @@ const Index = () => {
               </div>
               
               <p className="text-stone-600 text-xl leading-relaxed font-light">
-                Localizado no coração de Florianópolis, nosso restaurante combina a tradição culinária brasileira 
-                com técnicas internacionais refinadas. Cada prato é uma celebração dos sabores únicos da nossa terra.
+                A história do La Cave, é a nossa história, a do Gus & Pris, como nos chamam os amigos. Ela começou lá em 2004, quando chegamos à Espanha quase ao mesmo tempo. Foi naquele país que nos conhecemos e, após quatro anos de amizade, nos apaixonamos e começamos nossa jornada juntos. 
               </p>
               <p className="text-stone-600 text-xl leading-relaxed font-light">
-                Nossa cozinha é comandada por chefs apaixonados que utilizam ingredientes frescos e locais, 
-                criando experiências gastronômicas inesquecíveis em um ambiente acolhedor e sofisticado.
+                Aos poucos, construímos uma parceria baseada em amor e cumplicidade, que nos levou a um sonho: abrir nosso próprio negócio. <a 
+  href="https://www.instagram.com/p/C-xkJnFv0ZJ/" 
+  target="_blank" 
+  rel="noopener noreferrer">
+  Leia mais...
+</a>
+
               </p>
               
               <div className="flex items-center space-x-6 pt-6">
