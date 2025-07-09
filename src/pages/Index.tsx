@@ -88,7 +88,7 @@ const Index = () => {
               </p>
               <p className="text-stone-600 text-xl leading-relaxed font-light">
                 Aos poucos, construímos uma parceria baseada em amor e cumplicidade, que nos levou a um sonho: abrir nosso próprio negócio. <a 
-  href="https://www.instagram.com/p/C-xkJnFv0ZJ/" 
+  href="https://www.instagram.com/lacavegastrobar/" 
   target="_blank" 
   rel="noopener noreferrer"
   class="text-blue-500 hover:text-blue-700">
@@ -99,7 +99,7 @@ const Index = () => {
               
               <div className="flex items-center space-x-6 pt-6">
                 <div className="text-center">
-                  <div className="text-3xl font-serif text-amber-700 mb-1">2004</div>
+                  <div className="text-3xl font-serif text-amber-700 mb-1">2012</div>
                   <div className="text-sm text-stone-500 uppercase tracking-wider">Fundação</div>
                 </div>
                 <div className="w-px h-12 bg-stone-300"></div>
@@ -298,9 +298,10 @@ const Index = () => {
               <Instagram className="h-6 w-6 mr-3" />
               Instagram
             </Button>
-            <Button variant="outline" size="lg" className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105">
+            <Button asChild variant="outline" size="lg" className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105">
+               <a href="https://www.ifood.com.br/delivery/florianopolis-sc/la-cave-centro/d1c1a486-856d-4cf4-a786-f35bc05c9d85?utm_medium=share" target="_blank" rel="noopener noreferrer">
               <Facebook className="h-6 w-6 mr-3" />
-              Facebook
+              Delivery
             </Button>
           </div>
         </div>
@@ -313,7 +314,7 @@ const Index = () => {
             <h3 className="text-2xl font-serif text-amber-600 mb-2">Restaurante Ilha</h3>
             <div className="w-16 h-px bg-amber-600 mx-auto"></div>
           </div>
-          <p className="font-light">&copy; 2024 Restaurante Ilha. Todos os direitos reservados.</p>
+          <p className="font-light">&copy; 2025 Restaurante em Florianópolis - La Cave. Todos os direitos reservados.</p>
         </div>
       </footer>
 
