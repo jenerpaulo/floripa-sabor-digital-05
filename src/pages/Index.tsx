@@ -7,7 +7,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 via-amber-50/30 to-stone-50">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/70 via-stone-900/30 to-neutral-900/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/80 via-stone-900/30 to-neutral-900/80"></div>
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
           style={{
@@ -164,7 +164,7 @@ const Index = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img 
-                  src="/lovable-uploads/iberian_ham.png" 
+                  src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/iberian_ham.webp" 
                   alt="Jamón Ibérico de Bellota"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -187,7 +187,7 @@ const Index = () => {
             <div className="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
               <div className="relative overflow-hidden">
                 <img 
-                  src="/lovable-uploads/salmon_carpaccio.png" 
+                  src="https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/salmon_carpaccio.webp" 
                   alt="Carpaccio de Salmão"
                   className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
