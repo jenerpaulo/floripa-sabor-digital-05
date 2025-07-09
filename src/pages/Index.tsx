@@ -17,7 +17,12 @@ const Index = () => {
         <div className="absolute inset-0 bg-black/30"></div>
         
         <div className="relative z-10 text-center px-8 max-w-6xl mx-auto">
-          <div className="mb-8 flex justify-center">
+          <div className="mb-8 flex flex-col items-center space-y-4">
+            <img 
+              src="/lovable-uploads/ad7c3648-8812-4fb8-aa7e-ecac0e8c5e29.png" 
+              alt="Hospital do Dente Logo"
+              className="w-20 h-20 object-contain"
+            />
             <div className="flex items-center space-x-2 text-amber-600">
               <Star className="h-6 w-6 fill-current" />
               <Star className="h-6 w-6 fill-current" />
