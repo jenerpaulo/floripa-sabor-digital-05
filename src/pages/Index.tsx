@@ -294,10 +294,21 @@ const Index = () => {
           </div>
           
           <div className="flex justify-center gap-8">
-            <Button variant="outline" size="lg" className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105">
-              <Instagram className="h-6 w-6 mr-3" />
-              Instagram
-            </Button>
+            <Button
+  asChild
+  variant="outline"
+  size="lg"
+  className="border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-stone-900 px-8 py-4 font-light tracking-wide transition-all duration-300 hover:scale-105"
+>
+  <a
+    href="https://www.instagram.com/lacavegastrobar/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Instagram className="h-6 w-6 mr-3" />
+    Instagram
+  </a>
+</Button>
             <Button
   asChild
   variant="outline"
