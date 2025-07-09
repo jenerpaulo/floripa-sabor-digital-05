@@ -33,7 +33,7 @@ const Index = () => {
             </div>
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-serif font-light text-amber-400 mb-8 tracking-wide animate-fade-in">
+          <h1 className="text-4xl md:text-6xl font-serif font-light text-amber-400 mb-8 tracking-wide animate-fade-in">
             O Melhor Restaurante em
             <span className="block text-7xl md:text-9xl font-normal italic text-amber-400 mt-2">Florianópolis</span>
           </h1>
@@ -334,7 +334,7 @@ const Index = () => {
       <footer className="bg-stone-950 text-stone-400 py-12 px-8 text-center border-t border-stone-800">
         <div className="max-w-7xl mx-auto">
           <div className="mb-6">
-            <h3 className="text-2xl font-serif text-amber-600 mb-2">O Melhor Restaurante em Florianópolis.</h3>
+            <h3 className="text-2xl font-serif text-amber-600 mb-2">Restaurante Ilha</h3>
             <div className="w-16 h-px bg-amber-600 mx-auto"></div>
           </div>
           <p className="font-light">&copy; 2025 Restaurante em Florianópolis - La Cave. Todos os direitos reservados.</p>
