@@ -33,7 +33,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-6xl md:text-8xl font-serif font-light text-amber-400 mb-8 tracking-wide animate-fade-in">
-            Restaurante em
+            O Melhor Restaurante em
             <span className="block text-7xl md:text-9xl font-normal italic text-amber-400 mt-2">Florianópolis</span>
           </h1>
           
