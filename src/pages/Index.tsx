@@ -205,10 +205,10 @@ const Index = () => {
               </div>
               <div className="p-8">
                 <h3 className="text-2xl font-serif text-stone-800 mb-4 leading-tight">
-                  Carpaccio de Salmão
+                  Tosta de Salmão
                 </h3>
                 <p className="text-stone-600 leading-relaxed mb-6 font-light">
-                  Carpaccio de salmão com sour cream, regado com molho tailandês (gengibre, laranja e pimenta) e gergelim e molho ponzu de maracujá. Acompanha torradas de pães de fermentação prolongada
+                  Tosta de salmão defumado na casa, creme de abacate, creme azedo de dill e limão confit (2 unidades)
                 </p>
                 <div className="flex items-center justify-between">
                   <p className="text-2xl font-serif text-amber-600 font-medium">R$ 69,00</p>
