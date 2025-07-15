@@ -89,9 +89,9 @@ const Menu = () => {
     },
     {
       name: "Organic Mushroom Skillet Sautéed in Olive Oil with Fresh Herbs and Cherry Tomatoes Confit with Truffle Oil",
-      description: "Organic sautéed mushroom pot in extra virgin olive oil with fresh herbs and confit cherry tomatoes, finished with truffle oil. Served with house breads. Contains gluten, check availability of gluten-free bread.",
+      description: "Risoto de cogumelos orgânicos com farofa de gergelim e azeite de ervas",
       price: "R$ 69,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/organic_mushroom_skillet.webp",
+      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/ad026cb0-3da9-11f0-9071-09d6118f0bd4.webp",
       isNew: true
     },
     {
