@@ -95,8 +95,8 @@ const Menu = () => {
       isNew: true
     },
     {
-      name: "Seafood Stew with Sicilian Lemon Sauce and Slow-Fermented Toasts",
-      description: "Pink shrimp from deep sea, squid, shellfish, octopus and grilled fish with Sicilian lemon sauce accompanied by toasted long-fermented breads. Note: contains gluten and lactose, check availability of gluten-free bread, for lactose-free we remove ghee butter.",
+      name: "Panelinha de frutos do mar ao molho beurre blanc e torradinhas de fermentação prolongada",
+      description: "Camarões de alto mar, lula, marisco, polvo e peixe grelhados ao molho beurre blanc acompanhado de pães de fermentação prolongada com manteiga ghee e páprica defumada.",
       price: "R$ 95,00",
       image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/seafood_stew.png",
       isNew: true
