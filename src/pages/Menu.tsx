@@ -42,13 +42,6 @@ const Menu = () => {
       image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/smoked_salmon_toast.webp",
       isNew: true
     },
-    {
-      name: "JAMÓN IBÉRICO PATA NEGRA (ALIMENTADO COM BOLOTA)",
-      description: "Considerado o melhor Jamón do mundo o Jamón Ibérico de Bellota tem 36 meses de cura, alimentado com bellotas (um tipo de castanha) e cortado a cuchillo (faca especial para jamón). Acompanha focaccia, tomates confitados, azeite de ervas e tomate resfregado. Porção de Jamón 50 gramas.",
-      price: "R$ 149,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/iberian_ham.webp",
-      isNew: false
-    }
   ];
 
   const appetizers = [
@@ -57,13 +50,6 @@ const Menu = () => {
       description: "Ricota da casa recheada com queijo gorgonzola, acompanhada de compota de frutas vermelhas, nozes e pães",
       price: "R$ 59,00",
       image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/house_ricotta.webp",
-      isNew: true
-    },
-    {
-      name: "Crudo de Peixe Fresco, Ponzu de Laranja, Aioli de Wasabi, Algas e Pó de Hibisco",
-      description: "Crudo de peixe fresco, ponzu de laranja, aioli de wasabi, algas e pó de hibisco. Servido com torrada artesanal.",
-      price: "R$ 59,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/fresh_fish_crudo.webp",
       isNew: true
     },
     {
@@ -99,13 +85,6 @@ const Menu = () => {
       description: "Camarões de alto mar, lula, marisco, polvo e peixe grelhados ao molho beurre blanc acompanhado de pães de fermentação prolongada com manteiga ghee e páprica defumada.",
       price: "R$ 95,00",
       image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/seafood_stew.png",
-      isNew: true
-    },
-    {
-      name: "Selection of Living Cheeses and Artisanal Charcuterie with Jellies, Butter, and House Breads",
-      description: "Selection of unpasteurized (raw) cheeses, artisanal charcuterie. Served with jellies, smoked paprika ghee butter and breads, all made in-house. Note: contains gluten and lactose, check availability of gluten-free bread.",
-      price: "R$ 117,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/selection_of_cheeses.webp",
       isNew: true
     },
     {
