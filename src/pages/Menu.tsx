@@ -32,7 +32,7 @@ const Menu = () => {
       name: "Pão Naam com Queijo de Cabra Fresco, Shitake Refogado no Shoyu, Avelãs Tostadas, Agrião e Mel",
       description: "Pão Naam com queijo de cabra fresco caseiro, cogumelos shiitake refogados no shoyu, avelãs tostadas, agrião e mel",
       price: "R$ 59,00",
-      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/pao_naam.webp",
+      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/pao%20naam.webp",
       isNew: true
     },
     {
