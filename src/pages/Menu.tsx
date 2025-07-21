@@ -88,7 +88,7 @@ const Menu = () => {
       isNew: true
     },
     {
-      name: "Organic Mushroom Skillet Sautéed in Olive Oil with Fresh Herbs and Cherry Tomatoes Confit with Truffle Oil",
+      name: "Arroz arbório preparado juntamente com mix de cogumelos orgânicos finalizado com farofa crocante de gergelim e azeite verdes de ervas.",
       description: "Risoto de cogumelos orgânicos com farofa de gergelim e azeite de ervas",
       price: "R$ 69,00",
       image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/ad026cb0-3da9-11f0-9071-09d6118f0bd4.webp",
