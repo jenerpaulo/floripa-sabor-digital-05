@@ -109,8 +109,8 @@ const Menu = () => {
       isNew: true
     },
     {
-      name: "Bread Add-on",
-      description: "House bread served as an extra portion for other appetizers, does not come with butter.",
+      name: "Adicional de pães",
+      description: "Pães da casa servidos como porção extra para demais entradas, não acompanha manteiga.",
       price: "R$ 15,00",
       image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/bread_add_on.webp",
       isNew: true
