@@ -81,8 +81,8 @@ const Menu = () => {
       isNew: true
     },
     {
-      name: "Mix of Greens, Candied Fig, Fresh Goat Cheese, Shavings of Jamón Serrano, Savory Granola and Orange Vinaigrette",
-      description: "Mix of greens, candied fig, house-made fresh goat cheese, serrano ham shavings, savory granola, and orange vinaigrette",
+      name: "Mix de folhas, figo confitado, queijo fresco de cabra, lascas de pastrami, granola salgada e vinagrete de laranja",
+      description: "Arroz arbório preparado juntamente com mix de cogumelos orgânicos finalizado com farofa crocante de gergelim e azeite verdes de ervas.",
       price: "R$ 69,00",
       image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/main/public/images/mix_of_greens.webp",
       isNew: true
