@@ -77,7 +77,7 @@ const Menu = () => {
       name: "Steak Tartare com Gema Infusionada na Cachaça, Mousse de Mostarda Dijon",
       description: "Steak tartare com gema infusionada na cachaça, mousse de mostarda dijon acompanhado de pão caseiro de fermentação longa",
       price: "R$ 69,00",
-      image: "public/images/steak_tartare.webp",
+      image: "https://raw.githubusercontent.com/jenerpaulo/floripa-sabor-digital-05/refs/heads/main/public/images/steak.webp",
       isNew: true
     },
     {
