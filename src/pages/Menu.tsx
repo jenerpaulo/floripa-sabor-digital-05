@@ -144,15 +144,15 @@ const Menu = () => {
                   </div>
                   <div className="border-l-2 border-amber-200 pl-6">
                     <h4 className="font-serif text-xl text-amber-700 mb-3">Entrada</h4>
-                    <p className="text-stone-600 leading-relaxed font-light">Bolinho de peixe com aioli de limão siciliano</p>
+                    <p className="text-stone-600 leading-relaxed font-light">Mini cestinha folhada com queijo brie ao forno, compota de maçã e canela acompanhado de crocante de amendoim</p>
                   </div>
                   <div className="border-l-2 border-amber-200 pl-6">
                     <h4 className="font-serif text-xl text-amber-700 mb-3">Prato Principal</h4>
-                    <p className="text-stone-600 leading-relaxed font-light">Pancetta de porco marinada no vinho tinto e especiarias, cozida em baixa temperatura por oito horas, servida sobre purê de batatas, regada com molho demi glace, finalizada com gremolata e farofa de bacon</p>
+                    <p className="text-stone-600 leading-relaxed font-light">Papardelle artesanal com ragú de pato</p>
                   </div>
                   <div className="border-l-2 border-amber-200 pl-6">
                     <h4 className="font-serif text-xl text-amber-700 mb-3">Sobremesa</h4>
-                    <p className="text-stone-600 leading-relaxed font-light">Alfajor de xícara (ganache de chocolate, farofa de biscoito e creme de doce de leite)</p>
+                    <p className="text-stone-600 leading-relaxed font-light">Cheesecake de doce de leite</p>
                   </div>
                 </div>
               </CardContent>
